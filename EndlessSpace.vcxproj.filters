@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Behaviours">
+      <UniqueIdentifier>{BD05FB75-A9BD-3CC3-12C5-151FFE9BD7B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{1653CE33-0220-293F-2B39-17E717655ECD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Post">
+      <UniqueIdentifier>{4BF68B97-B7B6-07CE-80F1-504BEC704CAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{888B590D-F46A-D8A8-FD82-637F69E13E0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{010A8043-6D74-34BA-B6B2-E55F225C120F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Behaviours\CameraControlBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviours\FollowPathBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviours\HideBigFloor.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviours\PlaneBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviours\RotateObjectBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Framebuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\GBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\IlluminationBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\LUT.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\BloomEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\ColorCorrectEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\FilmGrainEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\GreyscaleEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\PixelatedEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\PostEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Post\SepiaEffect.h">
+      <Filter>Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\BoundingSphere.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\IntersectData.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\PhysicsEngine.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\PhysicsObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\BackendHandler.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\EffectHandler.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\EnvironmentGenerator.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Behaviours\CameraControlBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\FollowPathBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\HideBigFloor.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\PlaneBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\RotateObjectBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Framebuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\GBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\IlluminationBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\LUT.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\BloomEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\ColorCorrectEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\FilmGrainEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\GreyscaleEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\PixelatedEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\PostEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Post\SepiaEffect.cpp">
+      <Filter>Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\BoundingSphere.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\PhysicsEngine.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\PhysicsObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\BackendHandler.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\EffectHandler.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\EnvironmentGenerator.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Util.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+</Project>
